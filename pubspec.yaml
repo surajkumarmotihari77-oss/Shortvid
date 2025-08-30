@@ -8,54 +8,61 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.2.0 <4.0.0'
 
-
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
-# Localization
+  cupertino_icons: ^1.0.6
+
+  # Localization
   flutter_localizations:
     sdk: flutter
-# Code generator.
-  build_runner:
-# Connectivity
-  connectivity_plus: ^5.0.2
-# Splashing
-  flutter_native_splash:
-# State management.
-  flutter_bloc:
-# Code generation for immutable classes (cubit & retrofit).
-  freezed:
-  freezed_annotation:
-# Dependency injection.
-  get_it:
-# Classes and helper functions that support JSON code generation.
-  json_annotation:
-  json_serializable:
-# Networking
-  dio:
-  retrofit:
-  retrofit_generator:
-  pretty_dio_logger:
-# UI
-  flutter_screenutil:
-  cached_network_image:
-  flutter_svg:
-  lottie:
-# Data Storage
-  shared_preferences: ^2.2.2
-# Notifications
-  flutter_local_notifications: ^17.2.1
-  permission_handler: ^11.1.0
 
+  # Code generator
+  build_runner: ^2.4.8
 
+  # Connectivity
+  connectivity_plus: ^6.0.3
+
+  # Splash screen
+  flutter_native_splash: ^2.4.1
+
+  # State management
+  flutter_bloc: ^8.1.4
+
+  # Code generation for immutable classes
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+
+  # Dependency injection
+  get_it: ^7.7.0
+
+  # JSON serialization
+  json_annotation: ^4.9.0
+  json_serializable: ^6.7.1
+
+  # Networking
+  dio: ^5.4.3+1
+  retrofit: ^4.1.0
+  retrofit_generator: ^8.1.0
+  pretty_dio_logger: ^1.3.1
+
+  # UI
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  lottie: ^3.1.2
+
+  # Data Storage
+  shared_preferences: ^2.2.3
+
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^2.0.0
-
+  flutter_lints: ^3.0.1
 
 flutter:
   uses-material-design: true
