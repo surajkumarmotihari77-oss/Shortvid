@@ -45,7 +45,7 @@ dependencies:
 # Data Storage
   shared_preferences: ^2.2.2
 # Notifications
-  flutter_local_notifications: ^13.0.0
+  flutter_local_notifications: ^17.2.1
   permission_handler: ^11.1.0
 
 
