@@ -1,4 +1,4 @@
-package com.tiktok.india;
+package com.tiktok.india; // apna package name sahi likho
 
 import io.flutter.embedding.android.FlutterActivity;
 
