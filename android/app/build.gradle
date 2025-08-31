@@ -4,7 +4,7 @@ android {
 
     defaultConfig {
         applicationId "com.tiktok.india"
-        minSdkVersion 23    // <-- 21 se 23 kar
+        minSdkVersion 21    // <-- 21 se 23 kar
         targetSdkVersion 34 // <-- 33 se 34 kar
         versionCode 1
         versionName "1.0"
