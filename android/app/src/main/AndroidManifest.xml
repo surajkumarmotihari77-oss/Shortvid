@@ -2,7 +2,6 @@
     package="com.tiktok.india">
 
     <application
-        android:name="${applicationName}"
         android:label="TikTok India"
         android:icon="@mipmap/ic_launcher">
 
