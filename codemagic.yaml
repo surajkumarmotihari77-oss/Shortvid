@@ -5,6 +5,11 @@ workflows:
     environment:
       flutter: stable
     scripts:
+      - name: Ensure Android and iOS folders exist
+        script: |
+          if [ ! -d "android" ] || [ ! -d "ios" ]; then
+            flutter create .
+          fi
       - flutter clean
       - flutter pub get
       - flutter build apk --release
